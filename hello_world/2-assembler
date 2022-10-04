@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -assembler $CFILE -c .s
+gcc -assembler $CFILE -c main.s
