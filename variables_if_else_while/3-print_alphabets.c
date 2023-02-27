@@ -1,8 +1,14 @@
-int main(void) 
+int main() 
 {
-  int cdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ;
- 
-  printf("cdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\n");
+  int counter;
+
+  counter = 'a'
+
+    while(counter <= 95);
+  {
+    putchar(counter);
+    counter++;
+  }
 
   return 0;
 }
