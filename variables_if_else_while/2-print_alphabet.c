@@ -1,9 +1,16 @@
-int main(void) 
+#include <stdio.h>
+int main() 
 {
-  int abcdefghijklmnopqrstuvwxyz;
-  int n;
+  int counter;
   
-  printf("abcdefghijklmnopqrstuvwxyz\n");
+  
+  counter = 'a';
+
+    while(counter <= 122);
+  {
+    putchar(counter);
+    counter++;
+  }
 
   return 0;
 }
