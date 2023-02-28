@@ -6,7 +6,7 @@ int main()
   
   counter = 'a';
 
-    while(counter <= 122);
+    while(counter <= 122)
   {
     putchar(counter);
     counter++;
