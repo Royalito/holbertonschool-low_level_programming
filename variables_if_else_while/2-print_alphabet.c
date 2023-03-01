@@ -2,7 +2,7 @@
 int main(void)
 {
 int counter;
-char newline = '\n'; 
+char newline = '\n';
 counter = 'a';
 
 while (counter <= 122)
