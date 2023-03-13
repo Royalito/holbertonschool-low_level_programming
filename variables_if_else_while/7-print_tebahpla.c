@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 /**
  * main - Entry point
@@ -10,14 +9,14 @@
  */
 int main(void)
 {
-    int i;
-    int newline = '\n';
-    for(i='z';i>='a';i--)
-    {
-        putchar(i);
-    }
-    {
+int i;
+int newline = '\n';
+for(i = 'z'; i>= 'a'; i--)
+{
+putchar(i);
+}
+{
 putchar(newline);
 }
-    return 0;
+return 0;
 }
