@@ -11,12 +11,12 @@ int main(void)
 {
 int i;
 int newline = '\n';
-for(i = 'z'; i>= 'a'; i--)
+for (i = 'z'; i >= 'a'; i--)
 {
 putchar(i);
 }
 {
 putchar(newline);
 }
-return 0;
+return (0);
 }
