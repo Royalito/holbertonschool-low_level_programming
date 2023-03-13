@@ -10,17 +10,14 @@
  */
 int main(void)
 {
-int counter;
-int newline = '\n';
-counter = '0';
-
-while (counter <= 57)
-{
-putchar(counter);
-counter++;
-}
-{
+    int i;
+    int newline = '\n';
+    for(i='z';i>='a';i--)
+    {
+        putchar(i);
+    }
+    {
 putchar(newline);
 }
-return (0);
+    return 0;
 }
