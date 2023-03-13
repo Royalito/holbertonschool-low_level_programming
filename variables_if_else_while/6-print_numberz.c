@@ -11,7 +11,7 @@
 int main(void)
 {
 int counter;
-char newline = '\n';
+int newline = '\n';
 counter = '0';
 
 while (counter <= 57)
