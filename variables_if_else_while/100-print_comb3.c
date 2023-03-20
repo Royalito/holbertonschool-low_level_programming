@@ -20,7 +20,7 @@ while (pepe <= 57)
 {
 if (pepito < pepe)
 {
-putchar (pepito); 
+putchar (pepito);
 putchar (pepe);
 if (!(pepito == 56 && pepe == 57))
 {
