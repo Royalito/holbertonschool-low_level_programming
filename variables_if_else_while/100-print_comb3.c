@@ -9,20 +9,37 @@
  */
 int main(void)
 {
-    int counter = 0;
-
-    while (counter < 10)
-    {
-        putchar(counter + '0');
-        if (counter  < 9)
-        {
-            putchar(',');
-            putchar(' ');
-            putchar('0');
-        }
-        counter++;
-    }
-    putchar('\n');
-
-    return (0);
+int pepito;
+int pepe;
+int newline = 10;
+ 
+pepito = 48;
+while (pepito <= 57)
+{
+pepe = 48;
+while (pepe <= 57)
+{
+if (pepito < pepe)
+{
+putchar (pepito); 
+putchar (pepe);
+if (!(pepito == 56 && pepe == 57))
+{
+putchar (',');
+putchar (32);
+pepe++;
+}
+else
+pepe++;
+}
+else
+{
+pepe++;
+continue;
+}
+}
+pepito++;
+}
+putchar (newline);
+return (0);
 }
