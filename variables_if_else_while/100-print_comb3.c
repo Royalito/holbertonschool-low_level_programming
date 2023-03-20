@@ -12,7 +12,6 @@ int main(void)
 int pepito;
 int pepe;
 int newline = 10;
- 
 pepito = 48;
 while (pepito <= 57)
 {
