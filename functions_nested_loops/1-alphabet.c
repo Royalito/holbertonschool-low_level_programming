@@ -1,27 +1,22 @@
-#include <stdio.h>
+
+
 #include "main.h"
 /**
  * main - Entry point
  *
- * Description: 'the program's description'
+ * Description: 'imprime el alfabeto'
  *
  *
  * Return: Always 0 (Success)
  */
 
-int main(void)
+void print_alphabet(void)
 {
-int counter;
-char newline = '\n';
-counter = 'a';
-
-while (counter <= 122)
+  char juanin;
+  
+for (juanin = 'a'; juanin <= 'z'; juanin++)
 {
-_putchar(counter);
-counter++;
+_putchar(juanin);
 }
-{
-_putchar(newline);
-}
-return (0);
+_putchar ('\n');
 }
