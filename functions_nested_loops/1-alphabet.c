@@ -12,7 +12,7 @@
 
 void print_alphabet(void)
 {
-char juanin;  
+char juanin;
 for (juanin = 'a'; juanin <= 'z'; juanin++)
 {
 _putchar(juanin);
