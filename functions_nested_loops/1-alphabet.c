@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -16,11 +17,11 @@ counter = 'a';
 
 while (counter <= 122)
 {
-putchar(counter);
+_putchar(counter);
 counter++;
 }
 {
-putchar(newline);
+_putchar(newline);
 }
 return (0);
 }
