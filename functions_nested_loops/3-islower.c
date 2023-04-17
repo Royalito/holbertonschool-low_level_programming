@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: 'imprime el alfabeto'
+ * Description: 'Uno si es minusca y cero si no lo es'
  *
  *
  * Return: Always 0 (Success)
