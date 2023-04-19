@@ -10,9 +10,7 @@
 
 ## Funciones
 
-`access`
-
-`chdir`
+`access`, `chdir`
 
 `close`
 
