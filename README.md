@@ -18,7 +18,7 @@
 
 | fork  |  access | chdir | close | exceve |
 | ------------ | ------------ || ------------ | ------------ || ------------ |
-|  **exit **|  **getcwd**  | **gitpid** | **open** | **signal** |
+| exit |  getcwd**  | **gitpid** | **open** | **signal** |
 |   **stat** | **lstat ** | **fstat** | **wait4** | **write** |
 
 
@@ -30,7 +30,7 @@
 
 
 
-| pepito se va |
+| pepito se va | pepito viene |
 | ------------ |
 |   pito viene |
 |kmlasnlfna|
