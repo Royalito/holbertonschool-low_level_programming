@@ -14,7 +14,8 @@ n = n % 10;
 
 if (n < 0)
 {
-n = -n;
+_putchar((n - n * 2) + 48);
+return (n - n * 2);
 }
 else
 {
