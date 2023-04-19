@@ -1,10 +1,10 @@
-#C - Simple Shell
+# C - Simple Shell
 
 [TOCM]
 
 [TOC]
 
-##Tabla de contenido
+## Tabla de contenido
 
 ###### -Aca se pondra el contenido del programa.
 
@@ -84,8 +84,8 @@
 
 `write`
 
-##Codigo
-######-Aca ba el codigo.
+## Codigo
+###### -Aca ba el codigo.
 
 
 
