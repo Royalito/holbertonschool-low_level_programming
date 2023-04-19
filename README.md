@@ -17,10 +17,10 @@
 
 
 
-| fork  |  access | chdir | close | exceve |
+| fork         |  access | chdir | close | exceve |
 | ------------ | ------------ |
-|  **exit **|  **getcwd**  | **gitpid** | **open** | **signal** |
-|   **stat** | **lstat ** | **fstat** | **wait4** | **write** |
+|  **exit **   |  **getcwd**  | **gitpid** | **open** | **signal** |
+|   **stat**   | **lstat ** | **fstat** | **wait4** | **write** |
 
 
 
