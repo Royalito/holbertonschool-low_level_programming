@@ -1,8 +1,6 @@
 # C - Simple Shell
 
- [TOCM]
-
- [TOC]
+ ![](https://media.licdn.com/dms/image/C5612AQFpOkcCsn93wg/article-cover_image-shrink_600_2000/0/1618578265410?e=2147483647&v=beta&t=qT6ByTN7vsoPj3aKF6XNy3F4Oc46v6BK4HxCP4g2kXY)
 
 ## Tabla de contenido
 
