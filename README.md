@@ -10,77 +10,8 @@
 
 ## Funciones
 
-`access`, `chdir`
-
-`close`
-
-`closedir`
-
-`execve`
-
-`exit`
-
-`_exit`
-
-`fflush`
-
-`fork`
-
-`free`
-
-`getcwd`
-
-`getline`
-
-`getpid`
-
-`isatty`
-
-`kill`
-
-`malloc`
-
-`open`
-
-`opendir`
-
-`opendir`
-
-`perror`
-
-`printf`
-
-`fprintf`
-
-`vfprintf`
-
-`sprintf`
-
-`putchar`
-
-`read`
-
-`readdir`
-
-`signal`
-
-`stat`
-
-`lstat`
-
-`fstat`
-
-`strtok`
-
-`wait`
-
-`waitpid`
-
-`wait3`
-
-`wait4`
-
-`write`
+`access`, `chdir`, `close`, `closedir`, `execve`, `exit`, `_exit`, `fflush`, `fork`, `free`, `getcwd`, `getline`, `getpid`, `isatty`, `kill`, `malloc` ,`open` ,`opendir`, `opendir`,
+`perror`, `printf`, `fprintf`, `vfprintf`, `sprintf`, `putchar`, `read`, `readdir`, `signal`, `stat`, `lstat`, `fstat`, `strtok`, `wait`, `waitpid`, `wait3`, `wait4`, `write`
 
 ## Codigo
 ###### -Aca ba el codigo.
