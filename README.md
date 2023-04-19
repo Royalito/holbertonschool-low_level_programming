@@ -15,10 +15,15 @@
 
 ## Llamadas al sistema
 
+
+
 | fork  |  access | chdir | close | exceve |
 | ------------ | ------------ |
 |  **exit **|  **getcwd**  | **gitpid** | **open** | **signal** |
 |   **stat** | **lstat ** | **fstat** | **wait4** | **write** |
+
+
+
 
 ## Codigo
 ###### -Aca ba el codigo.
