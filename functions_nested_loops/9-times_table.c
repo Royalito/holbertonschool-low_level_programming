@@ -1,49 +1,41 @@
 #include "main.h"
+
 /**
- * main - Entry point
+ * main - check the code
  *
- * Description: 'imprime la tabla de multiplicar del nueve'
- *
- *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 
 void times_table(void)
 {
-int juanin;
-int tulio;
-int n;
-int d1;
-int d2;
+int a, b, c, d, e;
 
-for (juanin = 0; juanin <= 9; juanin++)
+for (a = 0; a <= 9; a++)
 {
-for (tulio = 0; tulio <= 9; tulio++)
+for (b = 0; b <= 9; b++)
 {
-n = juanin * tulio;
+c = a * b;
+if (c > 9)
+{
+d = c / 10;
+e = c % 10;
 
-if (n > 9)
-{
-d1 = n / 10;
-d2 = n % 10;
+_putchar(44);
+_putchar(32);
+_putchar(d + '0');
+_putchar(e + '0');
 }
 else
 {
-d1 = -16;
-d2 = n;
-}
-if (tulio != 0)
-_putchar(d1 + 48);
-_putchar(d2 + 48);
-if (tulio == 9)
+if (b != 0)
 {
-_putchar(10);
-}
-else
-{
-_putchar(',');
+_putchar(44);
+_putchar(32);
 _putchar(32);
 }
+_putchar(c + '0');
 }
+}
+_putchar('\n');
 }
 }
