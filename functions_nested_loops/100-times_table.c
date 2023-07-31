@@ -8,8 +8,6 @@
  * Return: Always 0 (Success)
  */
 
-#include <stdio.h>
-
 void imprimir_tabla_multiplicar(int n) {
     int i; 
     if (n < 0 || n > 15) {
