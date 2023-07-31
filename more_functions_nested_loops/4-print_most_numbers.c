@@ -6,20 +6,12 @@
  * Return: Always 0.
  */
 
-void _putchar(char c)
-{
-    write(1, &c, 1);
-}
+int _putchar(char c);
 
-void print_most_numbers(void)
-{
+void print_most_numbers(void) {
     int i;
-    
-   
-for (i = 0; i <= 9; i++)
-    {
-        if (i != 2 && i != 4)
-        {
+    for (i = 0; i < 10; i++) {
+        if (i != 2 && i != 4) {
             _putchar(i + '0');
         }
     }
