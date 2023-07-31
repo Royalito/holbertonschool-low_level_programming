@@ -8,12 +8,12 @@
  * Return: Always 0 (Success)
  */
 
-void print_times_table(int n) {
-    int i, j;
-    
-    /* Check if n is within the valid range (0 to 15) */
+#include <stdio.h>
+
+void imprimir_tabla_multiplicar(int n) {
+    int i; 
     if (n < 0 || n > 15) {
-        return; // If n is out of range, do nothing and return from the function.
+        return; 
     }
 
     for (i = 0; i <= 10; i++) {
@@ -23,10 +23,10 @@ void print_times_table(int n) {
 
 int main() {
     int n;
-    printf("Enter a number (0-15) to print its times table: ");
+    printf("Ingresa un número (0-15) para imprimir su tabla de multiplicar: ");
     scanf("%d", &n);
 
-    print_times_table(n);
+    imprimir_tabla_multiplicar(n);
 
     return 0;
 }
