@@ -1,19 +1,25 @@
-#include <unistd.h>
+#include "holberton.h"
 
 /**
- * main - check the code
+ * print_most_numbers - prints numbers 0 to 9, except 2 and 4, then new line
  *
- * Return: Always 0.
+ * Return: none
  */
 
-int _putchar(char c);
+void print_most_numbers(void)
+{
+	int i;
 
-void print_numbers(void) {
-    int i;
-    for (i = 0; i < 10; i++) {
-        if (i != 2 && i != 4) {
-            _putchar(i + '0');
-        }
-    }
-    _putchar('\n');
+	for (i = 0; i < 10; i++)
+	{
+		if (i == 2 || i == 4)
+		{
+			continue;
+		}
+		else
+		{
+			_putchar(i + '0');
+		}
+	}
+	_putchar('\n');
 }
