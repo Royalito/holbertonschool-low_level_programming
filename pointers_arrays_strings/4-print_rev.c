@@ -27,7 +27,7 @@ void print_rev(char *s)
 /* end _strlen mimicry, use its value to drive next loop */
 	for (; i >= 0; i--)
 	{
-		_putchar(s[i]);
+		putchar(s[i]);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
