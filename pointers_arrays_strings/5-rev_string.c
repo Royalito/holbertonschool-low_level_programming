@@ -12,7 +12,7 @@ void rev_string(char *pepe)
 
 	a = pepe;
 
-	while (s[c] != '\0')
+	while (pepe[c] != '\0')
 	{
 		c++;
 	}
