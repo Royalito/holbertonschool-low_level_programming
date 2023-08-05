@@ -12,11 +12,11 @@ void puts2(char *lucho)
 	{
 		if (lucho[count] == '\0')
 		{
-			_putchar('\n');
+			putchar('\n');
 			break;
 		}
 		if (count % 2 == 0)
-			_putchar(lucho[count]);
+			putchar(lucho[count]);
 		count++;
 	}
 }
