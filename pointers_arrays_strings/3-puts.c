@@ -12,7 +12,7 @@ void _puts(char *str)
 {
 	for (; *str; str++)
 	{
-		_putchar(*str);
+		putchar(*str);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
