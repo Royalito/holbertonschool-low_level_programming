@@ -24,13 +24,13 @@ void puts_half(char *str)
 		{
 			if (i >= (length / 2))
 			{
-				_putchar(str[i]);
+				putchar(str[i]);
 			}
 		}
 		else if (i >= (length - ((length - 1) / 2)))
 		{
-			_putchar(str[i]);
+			putchar(str[i]);
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 }
