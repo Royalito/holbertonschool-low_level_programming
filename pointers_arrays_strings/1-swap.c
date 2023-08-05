@@ -1,8 +1,12 @@
 #include <stdio.h>
 /**
- * main - check the code
+ * swap_int - swaps the values of two integers
  *
- * Return: Always 0.
+ * @a: first integer to swap
+ *
+ * @b: second integer to swap
+ *
+ * return - void
  */
 void swap_int(int *a, int *b)
 {
