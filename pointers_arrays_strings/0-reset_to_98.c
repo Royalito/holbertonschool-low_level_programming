@@ -1,17 +1,12 @@
 #include <stdio.h>
-
+/**
+ * reset_to_98 - takes a pointer to an int and updates the int value to 98
+ *
+ * @n: integer value given to function
+ *
+ * return - void
+ */
 void reset_to_98(int *n)
 {
-    *n = 98;
-}
-
-int main(void)
-{
-    int n;
-
-    n = 402;
-    printf("n=%d\n", n);
-    reset_to_98(&n);
-    printf("n=%d\n", n);
-    return (0);
+	*n = 98;
 }
